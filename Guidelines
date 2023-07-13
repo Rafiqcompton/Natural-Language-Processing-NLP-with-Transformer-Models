@@ -1,0 +1,4 @@
+Install the Hugging Face's Transformers library: pip install transformers
+Choose the appropriate pre-trained transformer model for your task.
+Load the model using pipeline() function from the Transformers library.
+Use the loaded model for NLP tasks like sentiment analysis, question answering, or language translation.
