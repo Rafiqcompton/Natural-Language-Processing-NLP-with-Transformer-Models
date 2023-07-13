@@ -1,0 +1,8 @@
+from transformers import pipeline
+
+# Load the sentiment analysis model
+nlp = pipeline("sentiment-analysis")
+
+# Perform sentiment analysis on a text
+result = nlp("I love using this product!")
+print(result)
